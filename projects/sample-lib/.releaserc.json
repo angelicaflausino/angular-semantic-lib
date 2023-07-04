@@ -15,18 +15,18 @@
       "@semantic-release/npm",
       {
         "npmPublish": false,
-        "tarballDir": "dist/sample-lib"
+        "tarballDir": "../../dist/sample-lib"
       }
     ],
     [
       "@semantic-release/github",
       {
-        "assets": "dist/sample-lib/*.tgz"
+        "assets": "../../dist/sample-lib/*.tgz"
       }
     ],
     [
       "@semantic-release/git", {
-        "assets": ["dist/sample-lib"],
+        "assets": ["../../dist/sample-lib"],
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ]

@@ -26,12 +26,18 @@ jobs:
         with:
           node-version: "lts/*"
       - name: Install dependencies
-        run: npm clean-install
+        run: |
+          cd projects/sample-lib
+          npm clean-install
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
-        run: npm audit signatures
+        run: |
+          cd projects/sample-lib
+          npm audit signatures
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           CI: true
-        run: npx semantic-release
+        run: |
+          cd projects/sample-lib
+          npx semantic-release
