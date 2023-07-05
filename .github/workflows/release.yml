@@ -26,6 +26,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "lts/*"
+          registry-url: https://npm.pkg.github.com/
+          scope: "@angelicaflausino"
       - name: Install dependencies
         run: |
           cd projects/sample-lib
@@ -37,9 +39,7 @@ jobs:
       - name: Start semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.GH_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
-          CI: true
         run: |
           cd projects/sample-lib
           npx semantic-release
