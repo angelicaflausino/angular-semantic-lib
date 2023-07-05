@@ -11,24 +11,19 @@
         "changelogFile": "../../docs/CHANGELOG.md"
       }
     ],
-    [
-      "@semantic-release/npm",
-      {
-        "npmPublish": true,
-        "tarballDir": "../../dist/sample-lib"
-      }
-    ],
+    "@semantic-release/npm",
     [
       "@semantic-release/github",
       {
-        "assets": "../../dist/sample-lib/*.tgz"
+        "assets": "../../dist/sample-lib/**"
       }
     ],
     [
       "@semantic-release/git", {
-        "assets": ["../../dist/sample-lib", "../../docs/CHANGELOG.md"],
+        "assets": ["../../docs/CHANGELOG.md", "package.json"],
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ]
-  ]
+  ],
+  "preset": "angular"
 }
