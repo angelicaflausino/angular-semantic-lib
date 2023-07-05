@@ -26,6 +26,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "lts/*"
+          registry-url: https://npm.pkg.github.com/
+      - name: Authenticate GitHub Registry
+        run: |
+          cd projects/sample-lib
+          echo "@angelicaflausino:registry=https://npm.pkg.github.com" >> .npmrc
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc
       - name: Install dependencies
         run: |
           cd projects/sample-lib
@@ -38,6 +44,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
           CI: true
         run: |
           cd projects/sample-lib
