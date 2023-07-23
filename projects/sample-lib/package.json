@@ -33,6 +33,7 @@
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^9.0.3",
     "semantic-release": "^21.0.6",
-    "semantic-release-angular-npm": "file:semantic-release-angular-npm-1.0.0.tgz"
+    "semantic-release-angular-npm": "file:semantic-release-angular-npm-1.0.0.tgz",
+    "ng-packagr": "^15.2.2"
   }
 }
