@@ -10,7 +10,7 @@
     [
       "semantic-release-angular-npm",
       {
-        "ngPackageFilePath": "projects/sample-lib/ng-package.json"
+        "ngPackageFilePath": "ng-package.json"
       }
     ],
     "@semantic-release/github",
