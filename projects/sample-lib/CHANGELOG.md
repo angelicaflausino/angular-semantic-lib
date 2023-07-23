@@ -1,3 +1,10 @@
+# [1.1.0-test.2](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-test.1...v1.1.0-test.2) (2023-07-23)
+
+
+### Bug Fixes
+
+* ngPackageFilePath ([bff1bf7](https://github.com/angelicaflausino/angular-semantic-lib/commit/bff1bf75be92ce2f6639e80caddfb7623db339d7))
+
 # [1.1.0-test.1](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.0.14...v1.1.0-test.1) (2023-07-23)
 
 
