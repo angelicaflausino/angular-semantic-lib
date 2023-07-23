@@ -1,6 +1,6 @@
 {
   "name": "@angelicaflausino/sample-lib",
-  "version": "1.0.14",
+  "version": "1.1.0-test.1",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
