@@ -1,7 +1,7 @@
 {
   "branches": [
     "main",
-    { "name": "test/plugin-angular", "channel": "beta", "prerelease": "beta" }
+    { "name": "test/plugin-angular", "prerelease": "test" }
   ],
   "plugins": [
     "@semantic-release/commit-analyzer",
