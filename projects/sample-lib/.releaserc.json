@@ -1,7 +1,7 @@
 {
   "branches": [
     "main",
-    { "name": "test/plugin-angular", "prerelease": "test" }
+    { "name": "test/*", "prerelease": "test" }
   ],
   "plugins": [
     "@semantic-release/commit-analyzer",
@@ -10,8 +10,7 @@
     [
       "semantic-release-angular-npm",
       {
-        "ngPackageFilePath": "projects/sample-lib/ng-package.json",
-        "pkgRoot": "projects/sample-lib"
+        "ngPackageFilePath": "projects/sample-lib/ng-package.json"
       }
     ],
     "@semantic-release/github",
