@@ -1,12 +1,19 @@
 {
   "branches": [
-    "main"
+    "main",
+    { "name": "test/plugin-angular", "channel": "beta", "prerelease": "beta" }
   ],
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    "@semantic-release/npm",
+    [
+      "semantic-release-angular-npm",
+      {
+        "ngPackageFilePath": "projects/sample-lib/ng-package.json",
+        "pkgRoot": "projects/sample-lib"
+      }
+    ],
     "@semantic-release/github",
     "@semantic-release/git"
   ],
