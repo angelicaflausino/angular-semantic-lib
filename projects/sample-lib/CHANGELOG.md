@@ -1,3 +1,11 @@
+# [1.1.0-beta.12](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.11...v1.1.0-beta.12) (2023-07-26)
+
+
+### Bug Fixes
+
+* npmPublish option ([495a996](https://github.com/angelicaflausino/angular-semantic-lib/commit/495a996ed4bdb1bb6161fdd712ad3ab61192f397))
+* test publish cmd ([0194118](https://github.com/angelicaflausino/angular-semantic-lib/commit/019411804b34216824219089f3bd345d504af7d4))
+
 # [1.1.0-beta.11](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.10...v1.1.0-beta.11) (2023-07-26)
 
 
