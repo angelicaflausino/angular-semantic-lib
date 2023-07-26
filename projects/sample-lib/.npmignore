@@ -2,6 +2,9 @@ node_modules
 .releaserc.json
 ng-package.json
 src
-LICENSE
-package.json
 README.md
+LICENSE
+CHANGELOG.md
+tsconfig.lib.json
+tsconfig.lib.prod.json
+tsconfig.spec.json
