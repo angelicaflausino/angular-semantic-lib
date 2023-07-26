@@ -1,3 +1,10 @@
+# [1.1.0-beta.17](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.16...v1.1.0-beta.17) (2023-07-26)
+
+
+### Bug Fixes
+
+* change pack destination ([57c6093](https://github.com/angelicaflausino/angular-semantic-lib/commit/57c6093e04bfad023d98213b51bc8ce5cf55741a))
+
 # [1.1.0-beta.16](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.15...v1.1.0-beta.16) (2023-07-26)
 
 
