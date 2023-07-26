@@ -12,7 +12,13 @@
         "prepareCmd": "ng-packagr -p ng-package.json"
       }
     ],
-    "@semantic-release/npm",
+    [
+      "@semantic-release/npm",
+      {
+        "pkgRoot": "../../dist/sample-lib",
+        "tarballDir": "../../dist/sample-lib"
+      }
+    ],
     "@semantic-release/github",
     "@semantic-release/git"
   ],
