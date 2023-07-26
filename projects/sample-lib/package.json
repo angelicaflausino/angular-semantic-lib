@@ -7,7 +7,7 @@
   "description": "Example of angular library using semantic-release",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angelicaflausino/angular-semantic-lib.git"
+    "url": "git+https://github.com/angelicaflausino/angular-semantic-lib.git"
   },
   "author": "Angélica Flausino",
   "license": "MIT",
@@ -20,6 +20,7 @@
     "library",
     "semantic-release"
   ],
+  "scripts": {},
   "peerDependencies": {
     "@angular/common": "^15.2.0",
     "@angular/core": "^15.2.0"
