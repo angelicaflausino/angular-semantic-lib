@@ -7,29 +7,21 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    ["@semantic-release/exec",
+    [
+      "@semantic-release/exec",
       {
-        "prepareCmd": "ng-packagr -p ng-package.json"
+        "publishCmd": "ng-packagr -p ng-package.json"
       }
     ],
     [
       "@semantic-release/npm",
       {
-        "pkgRoot": "dist",
         "tarballDir": "dist"
       }
     ],
     "@semantic-release/github",
-    [
-      "@semantic-release/git",
-      {
-        "assets": ["dist/package.json", "dist"]
-      }
-    ]
+    "@semantic-release/git"
   ],
-  "preset": "angular",
-  "scripts": {
-    "postversion": "cp -r dist/package.json .."
-  }
+  "preset": "angular"
 }
 
