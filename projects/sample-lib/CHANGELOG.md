@@ -1,3 +1,10 @@
+# [1.1.0-beta.20](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.19...v1.1.0-beta.20) (2023-07-26)
+
+
+### Bug Fixes
+
+* package.json ([df38deb](https://github.com/angelicaflausino/angular-semantic-lib/commit/df38deb092aa4971f4d79c3519fa8ee19d36fa24))
+
 # [1.1.0-beta.19](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.18...v1.1.0-beta.19) (2023-07-26)
 
 
