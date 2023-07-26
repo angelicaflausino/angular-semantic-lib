@@ -1,7 +1,0 @@
-/*
- * Public API Surface of sample-lib
- */
-export * from './lib/sample-lib.service';
-export * from './lib/sample-lib.component';
-export * from './lib/sample-lib.module';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYywwQkFBMEIsQ0FBQztBQUN6QyxjQUFjLDRCQUE0QixDQUFDO0FBQzNDLGNBQWMseUJBQXlCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxyXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygc2FtcGxlLWxpYlxyXG4gKi9cclxuXHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL3NhbXBsZS1saWIuc2VydmljZSc7XHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL3NhbXBsZS1saWIuY29tcG9uZW50JztcclxuZXhwb3J0ICogZnJvbSAnLi9saWIvc2FtcGxlLWxpYi5tb2R1bGUnO1xyXG4iXX0=
