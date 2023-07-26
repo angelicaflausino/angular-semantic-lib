@@ -1,0 +1,4 @@
+node_modules
+.releaserc.json
+ng-package.json
+src
