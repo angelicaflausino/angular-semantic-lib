@@ -1,0 +1,39 @@
+{
+  "name": "@angelicaflausino/sample-lib",
+  "version": "1.1.0-beta.13",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "description": "Example of angular library using semantic-release",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angelicaflausino/angular-semantic-lib.git"
+  },
+  "author": "Angélica Flausino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angelicaflausino/angular-semantic-lib/issues"
+  },
+  "homepage": "https://github.com/angelicaflausino/angular-semantic-lib#readme",
+  "keywords": [
+    "angular",
+    "library",
+    "semantic-release"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.0.3",
+    "semantic-release": "^21.0.6",
+    "ng-packagr": "^15.2.2"
+  }
+}

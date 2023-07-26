@@ -18,8 +18,5 @@
     "@semantic-release/github",
     "@semantic-release/git"
   ],
-  "preset": "angular",
-  "scripts": {
-    "postbuild": "cp -package.json dist"
-  }
+  "preset": "angular"
 }
