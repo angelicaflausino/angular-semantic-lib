@@ -1,3 +1,10 @@
+# [1.1.0-beta.16](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.15...v1.1.0-beta.16) (2023-07-26)
+
+
+### Bug Fixes
+
+* remove script postversion and pkgRoot ([20f70cc](https://github.com/angelicaflausino/angular-semantic-lib/commit/20f70ccdc39f9e82974f5d28dac88e9a8c9b0b27))
+
 # [1.1.0-beta.15](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.14...v1.1.0-beta.15) (2023-07-26)
 
 
