@@ -10,7 +10,7 @@
     [
       "@semantic-release/exec",
       {
-        "generateNotesCmd": "ng-packagr -p ng-package.json"
+        "prepareCmd": "ng-packagr -p ng-package.json"
       }
     ],
     [
@@ -20,16 +20,8 @@
       }
     ],
     "@semantic-release/github",
-    [
-      "@semantic-release/git",
-      {
-        "assets": ["package.json"]
-      }
-    ]
+    "@semantic-release/git"
   ],
-  "preset": "angular",
-  "scripts": {
-    "postversion": "cp -r package.json"
-  }
+  "preset": "angular"
 }
 
