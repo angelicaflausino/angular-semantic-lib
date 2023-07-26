@@ -16,7 +16,7 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "ng-packagr -p ng-package.json"
+        "prepareCmd": "ng-packagr -p ng-package.json && cd dist && npm pack"
       }
     ],
     "@semantic-release/github",
