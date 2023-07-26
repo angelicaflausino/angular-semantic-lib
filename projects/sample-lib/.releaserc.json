@@ -1,7 +1,7 @@
 {
   "branches": [
     "main",
-    { "name": "test/*", "prerelease": "test" }
+    { "name": "test/pack-ng-packagr", "prerelease": "test" }
   ],
   "plugins": [
     "@semantic-release/commit-analyzer",
