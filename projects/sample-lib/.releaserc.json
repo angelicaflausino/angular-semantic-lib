@@ -11,7 +11,7 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "rm *.tgz && ng-packagr -p ng-package.json && cd dist && npm pack --pack-destination .."
+        "prepareCmd": "ng-packagr -p ng-package.json && cd dist && npm pack --pack-destination .."
       }
     ],
     "@semantic-release/github",
