@@ -1,3 +1,10 @@
+# [1.1.0-beta.5](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.4...v1.1.0-beta.5) (2023-07-26)
+
+
+### Bug Fixes
+
+* skip tarball from plugin npm ([ee7ad51](https://github.com/angelicaflausino/angular-semantic-lib/commit/ee7ad5172dca9519c5a287491cfbff1777c87081))
+
 # [1.1.0-beta.4](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.3...v1.1.0-beta.4) (2023-07-26)
 
 
