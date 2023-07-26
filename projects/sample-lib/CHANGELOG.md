@@ -1,3 +1,10 @@
+# [1.1.0-beta.18](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.17...v1.1.0-beta.18) (2023-07-26)
+
+
+### Bug Fixes
+
+* change exec command ([0bd89d1](https://github.com/angelicaflausino/angular-semantic-lib/commit/0bd89d1d17347caa9ce4a3e06c4b6762fd46c0d3))
+
 # [1.1.0-beta.17](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.16...v1.1.0-beta.17) (2023-07-26)
 
 
