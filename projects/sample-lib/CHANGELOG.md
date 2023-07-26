@@ -1,3 +1,10 @@
+# [1.1.0-beta.6](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.5...v1.1.0-beta.6) (2023-07-26)
+
+
+### Bug Fixes
+
+* tsconfig files ([ea72ff4](https://github.com/angelicaflausino/angular-semantic-lib/commit/ea72ff4ced0c780d4a9c19192f28f0ab9c21b8c5))
+
 # [1.1.0-beta.5](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.4...v1.1.0-beta.5) (2023-07-26)
 
 
