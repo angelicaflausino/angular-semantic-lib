@@ -1,3 +1,10 @@
+# [1.1.0-beta.11](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.10...v1.1.0-beta.11) (2023-07-26)
+
+
+### Bug Fixes
+
+* change exec order plugin ([ef5f1a4](https://github.com/angelicaflausino/angular-semantic-lib/commit/ef5f1a4005d18fd0dc79f95389f7fc8e3e654689))
+
 # [1.1.0-beta.10](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.9...v1.1.0-beta.10) (2023-07-26)
 
 
