@@ -1,3 +1,11 @@
+# [1.1.0-beta.19](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.18...v1.1.0-beta.19) (2023-07-26)
+
+
+### Bug Fixes
+
+* add script to remove tgz from npm plugin ([d961f58](https://github.com/angelicaflausino/angular-semantic-lib/commit/d961f58bc80387a3667c92adb46180f608050898))
+* prepareCmd ([7353148](https://github.com/angelicaflausino/angular-semantic-lib/commit/735314825193feb9b372fc078d0e352ce3970a1a))
+
 # [1.1.0-beta.18](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.17...v1.1.0-beta.18) (2023-07-26)
 
 
