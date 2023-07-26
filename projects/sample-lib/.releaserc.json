@@ -10,14 +10,13 @@
     [
       "@semantic-release/npm",
       {
-        "npmPublish": false
+        "tarballDir": "dist"
       }
     ],
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "ng-packagr -p ng-package.json && cd dist && npm pack",
-        "publishCmd": "cd dist && npm publish --tag ${nextRelease.version} --registry https://npm.pkg.github.com"
+        "prepareCmd": "ng-packagr -p ng-package.json && cd dist && npm pack"
       }
     ],
     "@semantic-release/github",
