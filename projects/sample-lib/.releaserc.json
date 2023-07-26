@@ -1,5 +1,4 @@
 {
-  "pkgRoot": "dist",
   "branches": [
     "main",
     { "name": "test/pack-ng-packagr", "prerelease": "beta" }
@@ -18,8 +17,5 @@
     "@semantic-release/github",
     "@semantic-release/git"
   ],
-  "preset": "angular",
-  "scripts": {
-    "postversion": "cp -r package.json .."
-  }
+  "preset": "angular"
 }
