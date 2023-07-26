@@ -1,3 +1,11 @@
+# [1.1.0-beta.14](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.13...v1.1.0-beta.14) (2023-07-26)
+
+
+### Bug Fixes
+
+* add dist with package.json ([02630c7](https://github.com/angelicaflausino/angular-semantic-lib/commit/02630c775d679c62346c81e2b62c60c36588c6e5))
+* try scripts postbuild ([21f11e0](https://github.com/angelicaflausino/angular-semantic-lib/commit/21f11e0d78951cbffdea0e3bd55d21fc9f368528))
+
 # [1.1.0-beta.13](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.12...v1.1.0-beta.13) (2023-07-26)
 
 
