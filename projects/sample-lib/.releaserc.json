@@ -15,12 +15,21 @@
     [
       "@semantic-release/npm",
       {
-        "pkgRoot": "../../dist/sample-lib",
-        "tarballDir": "../../dist/sample-lib"
+        "pkgRoot": "dist",
+        "tarballDir": "dist"
       }
     ],
     "@semantic-release/github",
-    "@semantic-release/git"
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["dist/package.json", "dist"]
+      }
+    ]
   ],
-  "preset": "angular"
+  "preset": "angular",
+  "scripts": {
+    "postversion": "cp -r dist/package.json .."
+  }
 }
+
