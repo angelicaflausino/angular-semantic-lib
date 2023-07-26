@@ -1,3 +1,10 @@
+# [1.1.0-beta.10](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.9...v1.1.0-beta.10) (2023-07-26)
+
+
+### Bug Fixes
+
+* releaserc ([4cb6802](https://github.com/angelicaflausino/angular-semantic-lib/commit/4cb68021aae5d2321e01ebd02e448f80d80f5c2d))
+
 # [1.1.0-beta.6](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.5...v1.1.0-beta.6) (2023-07-26)
 
 
