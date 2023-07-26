@@ -18,5 +18,8 @@
     "@semantic-release/github",
     "@semantic-release/git"
   ],
-  "preset": "angular"
+  "preset": "angular",
+  "scripts": {
+    "postversion": "cp -r package.json .."
+  }
 }
