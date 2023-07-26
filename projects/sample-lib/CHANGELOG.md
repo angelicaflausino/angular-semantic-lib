@@ -1,3 +1,10 @@
+# [1.1.0-beta.3](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.2...v1.1.0-beta.3) (2023-07-26)
+
+
+### Bug Fixes
+
+* remove src from npm pack ([bd96842](https://github.com/angelicaflausino/angular-semantic-lib/commit/bd9684280c4318d16b65183d07cc713589e6387b))
+
 # [1.1.0-beta.2](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.1...v1.1.0-beta.2) (2023-07-26)
 
 
