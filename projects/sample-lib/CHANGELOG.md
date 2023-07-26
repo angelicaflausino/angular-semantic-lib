@@ -1,3 +1,10 @@
+# [1.1.0-beta.13](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.12...v1.1.0-beta.13) (2023-07-26)
+
+
+### Bug Fixes
+
+* remove npmPublish ([3d9245c](https://github.com/angelicaflausino/angular-semantic-lib/commit/3d9245cba62d0824c1a2b288dbb11ba76a5784ab))
+
 # [1.1.0-beta.12](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.11...v1.1.0-beta.12) (2023-07-26)
 
 
