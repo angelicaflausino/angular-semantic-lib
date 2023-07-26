@@ -10,13 +10,14 @@
     [
       "@semantic-release/npm",
       {
-        "tarballDir": "dist"
+        "tarballDir": "dist",
+        "pkgRoot": "dist"
       }
     ],
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "ng-packagr -p ng-package.json"
+        "generateNotesCmd": "ng-packagr -p ng-package.json"
       }
     ],
     "@semantic-release/github",
