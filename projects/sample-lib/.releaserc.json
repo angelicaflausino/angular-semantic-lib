@@ -8,15 +8,15 @@
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     [
-      "@semantic-release/exec",
-      {
-        "publishCmd": "ng-packagr -p ng-package.json"
-      }
-    ],
-    [
       "@semantic-release/npm",
       {
         "tarballDir": "dist"
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "ng-packagr -p ng-package.json"
       }
     ],
     "@semantic-release/github",
