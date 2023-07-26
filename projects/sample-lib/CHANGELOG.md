@@ -1,3 +1,10 @@
+# [1.1.0-beta.4](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.3...v1.1.0-beta.4) (2023-07-26)
+
+
+### Bug Fixes
+
+* skip files from npm pack ([391f4f0](https://github.com/angelicaflausino/angular-semantic-lib/commit/391f4f09636c50f68e18e1469d72751038c7e595))
+
 # [1.1.0-beta.3](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.2...v1.1.0-beta.3) (2023-07-26)
 
 
