@@ -2,9 +2,10 @@ node_modules
 .releaserc.json
 ng-package.json
 src
-README.md
-LICENSE
 CHANGELOG.md
 tsconfig.lib.json
 tsconfig.lib.prod.json
 tsconfig.spec.json
+dist/*.tgz
+dist/LICENSE
+dist/README

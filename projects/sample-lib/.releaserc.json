@@ -1,4 +1,5 @@
 {
+  "pkgRoot": "dist",
   "branches": [
     "main",
     { "name": "test/pack-ng-packagr", "prerelease": "beta" }
@@ -7,12 +8,7 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    [
-      "@semantic-release/npm",
-      {
-        "tarballDir": "dist"
-      }
-    ],
+    "@semantic-release/npm",
     [
       "@semantic-release/exec",
       {
@@ -22,6 +18,8 @@
     "@semantic-release/github",
     "@semantic-release/git"
   ],
-  "preset": "angular"
+  "preset": "angular",
+  "scripts": {
+    "postbuild": "cp -package.json dist"
+  }
 }
-
