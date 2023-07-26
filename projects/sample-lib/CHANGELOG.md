@@ -1,3 +1,10 @@
+# [1.1.0-beta.2](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.1...v1.1.0-beta.2) (2023-07-26)
+
+
+### Bug Fixes
+
+* npm pack from plugin exec ([a425ba9](https://github.com/angelicaflausino/angular-semantic-lib/commit/a425ba99eaa3b9eaa9834a1ebc4800b7e58c8687))
+
 # [1.1.0-beta.1](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.0.14...v1.1.0-beta.1) (2023-07-26)
 
 
