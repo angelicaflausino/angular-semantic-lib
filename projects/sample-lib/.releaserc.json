@@ -7,11 +7,17 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    "@semantic-release/npm",
+    [
+      "@semantic-release/npm",
+      {
+        "tarballDir": "dist",
+        "pkgRoot": "dist"
+      }
+    ],
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "ng-packagr -p ng-package.json && cd dist && npm pack"
+        "prepareCmd": "ng-packagr -p ng-package.json"
       }
     ],
     "@semantic-release/github",
