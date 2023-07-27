@@ -1,3 +1,10 @@
+# [1.1.0-beta.21](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.20...v1.1.0-beta.21) (2023-07-27)
+
+
+### Bug Fixes
+
+* npm publish with publishCmd ([b9688fe](https://github.com/angelicaflausino/angular-semantic-lib/commit/b9688fe7718c8dc984d3be5d9c0bf77637339bd0))
+
 # [1.1.0-beta.20](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.19...v1.1.0-beta.20) (2023-07-26)
 
 
