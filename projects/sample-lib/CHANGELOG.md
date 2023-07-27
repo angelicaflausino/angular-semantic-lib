@@ -1,3 +1,10 @@
+# [1.1.0-beta.23](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.22...v1.1.0-beta.23) (2023-07-27)
+
+
+### Bug Fixes
+
+* remove scripts from package.json ([8d65271](https://github.com/angelicaflausino/angular-semantic-lib/commit/8d652716f015f824dfa6f8c8feebfa18c22ff583))
+
 # [1.1.0-beta.22](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.21...v1.1.0-beta.22) (2023-07-27)
 
 
