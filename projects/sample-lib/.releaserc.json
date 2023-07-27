@@ -7,11 +7,17 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    "@semantic-release/npm",
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false
+      }
+    ],
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "ng-packagr -p ng-package.json && cd dist && npm pack --pack-destination .."
+        "prepareCmd": "ng-packagr -p ng-package.json && cd dist && npm pack --pack-destination ..",
+        "publishCmd": "npm publish dist --tag ${nextRelease.channel} --registry https://npm.pkg.github.com"
       }
     ],
     "@semantic-release/github",
