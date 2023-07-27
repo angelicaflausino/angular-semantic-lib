@@ -1,3 +1,10 @@
+# [1.1.0-beta.22](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.21...v1.1.0-beta.22) (2023-07-27)
+
+
+### Bug Fixes
+
+* publishCmd work directory ([1230cc5](https://github.com/angelicaflausino/angular-semantic-lib/commit/1230cc5c196b8a0f6a7152ea035c53daaface161))
+
 # [1.1.0-beta.21](https://github.com/angelicaflausino/angular-semantic-lib/compare/v1.1.0-beta.20...v1.1.0-beta.21) (2023-07-27)
 
 
